@@ -17,8 +17,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   perspective: 600px;
-  padding:35px;
-  width:60%;
+  padding: 35px;
+  width: 60%;
   margin: 20px auto;
   border-radius: 10px;
 }
@@ -33,7 +33,7 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .popup-inner {
@@ -49,9 +49,9 @@
 }
 
 .button {
-  background-color: #594881; 
+  background-color: #594881;
   border: none;
-  color: #FCFAF9;
+  color: #fcfaf9;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
