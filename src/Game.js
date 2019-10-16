@@ -47,9 +47,7 @@ class Game extends Component {
 
   setPrefs = event => {
     const gameMode = event.target.value.toUpperCase();
-    console.log("Saving " + gameMode);
     localStorage.setItem("deck", gameMode);
-    console.log("New: " + gameMode);
   };
 
   start() {

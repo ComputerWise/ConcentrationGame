@@ -10,7 +10,6 @@ class Card extends Component {
     this.props.click(card);
   }
   render() {
-    console.log("Deck: " + this.props.deck);
     const card = (
       <img
         src={"tiles/" + this.props.deck + "/" + this.props.card + ".png"}
