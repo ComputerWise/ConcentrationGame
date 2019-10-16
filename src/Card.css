@@ -9,6 +9,7 @@
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative;
+  white-space: nowrap;
 }
 
 .card div {
@@ -34,7 +35,7 @@
 }
 
 .card div.back {
-  transform: rotateX(-180deg);
+  transform: rotateY(-180deg);
 }
 
 .back span {
@@ -55,21 +56,17 @@
   opacity: 0.2;
 }
 
-.BLUE {
-  background-color: darkblue;
+/*
+  IMAGES
+*/
+.tile-helper {
+  display: inline-block;
+  height: 100%;
 }
-.RED {
-  background-color: red;
-}
-.PURPLE {
-  background-color: purple;
-}
-.ORANGE {
-  background-color: orange;
-}
-.GREEN {
-  background-color: green;
-}
-.YELLOW {
-  background-color: yellow;
+.back img {
+  position: absolute;
+  top: 50%;
+  height: 120px;
+  margin-top: -60px; /* Half the height */
+  margin-left: -60px;
 }

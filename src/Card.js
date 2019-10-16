@@ -10,6 +10,13 @@ class Card extends Component {
     this.props.click(card);
   }
   render() {
+    console.log("Deck: " + this.props.deck);
+    const card = (
+      <img
+        src={"tiles/" + this.props.deck + "/" + this.props.card + ".png"}
+        alt={this.props.card}
+      />
+    );
     return (
       <div
         className={
@@ -20,9 +27,7 @@ class Card extends Component {
         onClick={() => this.clicked(this.props.card)}
       >
         <div className="front">?</div>
-        <div className="back">
-          <span className={this.props.card} />
-        </div>
+        <div className="back">{card}</div>
       </div>
     );
   }
