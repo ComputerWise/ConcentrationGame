@@ -75,6 +75,8 @@ class Game extends Component {
     ).style.display = document.getElementById("popup-options").style.display =
       "none";
 
+    document.getElementById("deck-select").value = gameMode;
+
     this.setState({
       cards: deck,
       duplicatedCards,
@@ -214,10 +216,7 @@ class Game extends Component {
             <h2>Options</h2>
             <form>
               <p>Select a tile set:</p>
-              <select
-                value={localStorage.getItem("deck")}
-                onChange={this.setPrefs}
-              >
+              <select id="deck-select" onChange={this.setPrefs}>
                 <option id="COLOURS" name="tiles" value="COLOURS">
                   Colours
                 </option>
