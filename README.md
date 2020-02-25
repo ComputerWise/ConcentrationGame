@@ -1,4 +1,4 @@
-## React Concentration Game
+## Concentration Game
 
 A simple colour matching card game using React
 
@@ -13,4 +13,4 @@ The page will reload if you make edits.<br>
 
 ### Try it!
 
-Demo available [here](https://disposablethumbs.github.io/react-concentration-game/).
+Demo available [here](https://ComputerWise.github.io/ConcentrationGame/).
